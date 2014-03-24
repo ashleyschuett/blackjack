@@ -1,0 +1,43 @@
+
+.card{
+		width: 72px;
+		height: 98px;
+		background:url('cards.jpg');
+		display: inline-block;
+		/*background-position: -730px -294px; //x-offset=-73 * number of cards to the right, y-offset = -98*number of cards down  */
+	}
+
+#player-score:before, #computer-score:before{
+	content: "Score: ";
+
+}
+
+#computer-score, #player-score{
+	padding: 20px;
+
+}
+
+#status:before{
+	content: "";
+}
+
+#container{
+	width: 800px;
+	height: 413px;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	font-size: 30px;
+}
+
+
+
+button{
+	padding: 20px;
+	background: white;
+	border-radius: 5px;
+	line-height: 1.5;
+	border: 1px solid #ccc;
+	font-size: 20px;
+}
